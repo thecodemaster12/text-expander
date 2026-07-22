@@ -7,7 +7,9 @@ public final class EventTapManager: @unchecked Sendable {
     private var eventTap: CFMachPort?
     private var runLoopSource: CFRunLoopSource?
     private var wordBuffer = WordBuffer(capacity: 64)
-    
+    /// Incremented on every buffer mutation so async evaluations can detect they've gone stale.
+    private var bufferGeneration: UInt64 = 0
+
     public var onExpansionTriggered: ((Snippet, VariableResolutionResult) -> Void)?
     public var onBufferUpdated: ((String) -> Void)?
     
@@ -82,6 +84,7 @@ public final class EventTapManager: @unchecked Sendable {
         // Ignore hotkeys with Cmd or Ctrl held down
         if flags.contains(.maskCommand) || flags.contains(.maskControl) {
             wordBuffer.clear()
+            bufferGeneration += 1
             return Unmanaged.passUnretained(event)
         }
 
@@ -90,6 +93,7 @@ public final class EventTapManager: @unchecked Sendable {
         // Escape Key (0x35) resets buffer
         if keyCode == 0x35 {
             wordBuffer.clear()
+            bufferGeneration += 1
             onBufferUpdated?(wordBuffer.currentString)
             return Unmanaged.passUnretained(event)
         }
@@ -97,6 +101,7 @@ public final class EventTapManager: @unchecked Sendable {
         // Backspace Key (0x33)
         if keyCode == 0x33 {
             wordBuffer.deleteLast()
+            bufferGeneration += 1
             onBufferUpdated?(wordBuffer.currentString)
             return Unmanaged.passUnretained(event)
         }
@@ -111,13 +116,21 @@ public final class EventTapManager: @unchecked Sendable {
             for char in typedString {
                 wordBuffer.append(char)
             }
+            bufferGeneration += 1
             onBufferUpdated?(wordBuffer.currentString)
 
             // Asynchronously evaluate buffer against snippet engine
             let currentBuffer = wordBuffer
+            let expectedGeneration = bufferGeneration
             Task {
                 if let (snippet, resolution) = await snippetEngine.evaluateBuffer(currentBuffer) {
                     await MainActor.run {
+                        // If more keystrokes landed while we were awaiting the actor, the trigger
+                        // is no longer at the tail of what's on screen — applying backspaces now
+                        // would delete characters the user typed after the trigger. Bail instead
+                        // of corrupting their text; the next keystroke will re-evaluate.
+                        guard self.bufferGeneration == expectedGeneration else { return }
+                        self.bufferGeneration += 1
                         self.wordBuffer.clear()
                         self.onBufferUpdated?("")
                         self.simulator.performExpansion(

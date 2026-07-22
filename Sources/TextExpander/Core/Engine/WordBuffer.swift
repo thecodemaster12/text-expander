@@ -68,15 +68,38 @@ public struct WordBuffer: Sendable {
         return true
     }
 
-    /// Checks if buffer ends with any registered triggers from an in-memory collection.
-    /// Returns the matched snippet and exact trigger length if found.
-    public func findMatchingTrigger(in snippets: [String: Snippet]) -> (snippet: Snippet, matchedTrigger: String)? {
-        guard !buffer.isEmpty else { return nil }
+    /// Checks if buffer ends with any registered trigger using direct hash-map lookups on
+    /// each candidate suffix, rather than testing every snippet in the collection. Cost is
+    /// O(maxTriggerLength) per keystroke, independent of how many snippets are registered.
+    /// Longer triggers are preferred over shorter ones that happen to also match the tail.
+    /// - Parameters:
+    ///   - caseSensitiveTriggers: Snippets keyed by their exact-case trigger string.
+    ///   - caseInsensitiveTriggers: Snippets keyed by their lowercased trigger string.
+    ///   - maxTriggerLength: Longest trigger length across both maps (bounds the search).
+    public func findMatchingTrigger(
+        caseSensitiveTriggers: [String: Snippet],
+        caseInsensitiveTriggers: [String: Snippet],
+        maxTriggerLength: Int
+    ) -> (snippet: Snippet, matchedTrigger: String)? {
+        guard !buffer.isEmpty, maxTriggerLength > 0 else { return nil }
 
-        // Iterate through all active triggers to match against buffer suffix
-        for (_, snippet) in snippets {
-            guard snippet.isEnabled else { continue }
-            if matchesTrigger(snippet.trigger, caseSensitive: snippet.isCaseSensitive) {
+        let upperLength = min(maxTriggerLength, buffer.count)
+        guard upperLength > 0 else { return nil }
+
+        for length in stride(from: upperLength, through: 1, by: -1) {
+            let matchStartIndex = buffer.count - length
+
+            // A backslash immediately before this candidate suffix escapes it.
+            if matchStartIndex > 0 && buffer[matchStartIndex - 1] == "\\" {
+                continue
+            }
+
+            let suffixString = String(buffer.suffix(length))
+
+            if let snippet = caseSensitiveTriggers[suffixString], snippet.isEnabled {
+                return (snippet, snippet.trigger)
+            }
+            if let snippet = caseInsensitiveTriggers[suffixString.lowercased()], snippet.isEnabled {
                 return (snippet, snippet.trigger)
             }
         }

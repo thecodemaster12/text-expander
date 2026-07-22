@@ -50,6 +50,26 @@ final class SnippetEngineTests: XCTestCase {
         XCTAssertNil(match)
     }
 
+    func testLongestTriggerPreferredOverShorterSuffixMatch() async {
+        let engine = SnippetEngine()
+        // "il" is also a trailing substring of "...email", but the longer, more specific
+        // trigger should win rather than an arbitrary dictionary-order pick.
+        let sampleSnippets = [
+            Snippet(trigger: "il", replacement: "SHORT"),
+            Snippet(trigger: ";email", replacement: "LONG")
+        ]
+        await engine.loadSnippets(sampleSnippets)
+
+        var buffer = WordBuffer(capacity: 30)
+        for char in "hi;email" {
+            buffer.append(char)
+        }
+
+        let match = await engine.evaluateBuffer(buffer)
+        XCTAssertEqual(match?.snippet.trigger, ";email")
+        XCTAssertEqual(match?.expansionResult.text, "LONG")
+    }
+
     func testUpsertAndDeleteSnippet() async {
         let engine = SnippetEngine()
         let id = UUID()

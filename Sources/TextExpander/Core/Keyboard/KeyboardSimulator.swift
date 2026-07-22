@@ -38,9 +38,10 @@ public final class KeyboardSimulator: Sendable {
     /// Simulates pressing the Backspace key `count` times.
     public func sendBackspaces(count: Int) {
         let backspaceKeyCode: CGKeyCode = 0x33 // kVK_Delete
+        let source = CGEventSource(stateID: .hidSystemState)
         for _ in 0..<count {
-            postKeyEvent(keyCode: backspaceKeyCode, keyDown: true)
-            postKeyEvent(keyCode: backspaceKeyCode, keyDown: false)
+            postKeyEvent(keyCode: backspaceKeyCode, keyDown: true, source: source)
+            postKeyEvent(keyCode: backspaceKeyCode, keyDown: false, source: source)
             usleep(2_000) // 2ms per key press
         }
     }
@@ -48,9 +49,10 @@ public final class KeyboardSimulator: Sendable {
     /// Simulates Left Arrow key presses to position cursor.
     public func sendLeftArrows(count: Int) {
         let leftArrowKeyCode: CGKeyCode = 0x7B // kVK_LeftArrow
+        let source = CGEventSource(stateID: .hidSystemState)
         for _ in 0..<count {
-            postKeyEvent(keyCode: leftArrowKeyCode, keyDown: true)
-            postKeyEvent(keyCode: leftArrowKeyCode, keyDown: false)
+            postKeyEvent(keyCode: leftArrowKeyCode, keyDown: true, source: source)
+            postKeyEvent(keyCode: leftArrowKeyCode, keyDown: false, source: source)
             usleep(2_000)
         }
     }
@@ -79,6 +81,7 @@ public final class KeyboardSimulator: Sendable {
 
         pasteboard.clearContents()
         pasteboard.setString(text, forType: .string)
+        let ourChangeCount = pasteboard.changeCount
 
         // Simulate Command + V keypress
         let vKeyCode: CGKeyCode = 0x09 // kVK_ANSI_V
@@ -93,17 +96,20 @@ public final class KeyboardSimulator: Sendable {
             keyUp.post(tap: .cghidEventTap)
         }
 
-        // Restore previous pasteboard contents asynchronously after short delay
+        // Restore previous pasteboard contents asynchronously after short delay, but only if
+        // nothing else (e.g. the user copying something new) has touched the pasteboard since
+        // we set our replacement text — otherwise we'd clobber their newer clipboard content.
         if let previous = previousContent {
             DispatchQueue.global().asyncAfter(deadline: .now() + 0.3) {
+                guard NSPasteboard.general.changeCount == ourChangeCount else { return }
                 NSPasteboard.general.clearContents()
                 NSPasteboard.general.setString(previous, forType: .string)
             }
         }
     }
 
-    private func postKeyEvent(keyCode: CGKeyCode, keyDown: Bool) {
-        let source = CGEventSource(stateID: .hidSystemState)
+    private func postKeyEvent(keyCode: CGKeyCode, keyDown: Bool, source: CGEventSource? = nil) {
+        let source = source ?? CGEventSource(stateID: .hidSystemState)
         if let event = CGEvent(keyboardEventSource: source, virtualKey: keyCode, keyDown: keyDown) {
             event.post(tap: .cghidEventTap)
         }
