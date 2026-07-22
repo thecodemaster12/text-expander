@@ -1,0 +1,546 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderPackageTests.xctest/Contents/MacOS/TextExpanderPackageTests",
+      "productName" : "TextExpanderPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.TextExpander-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/SnippetEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/VariableResolver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/WordBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/AccessibilityPermission.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/EventTapManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/KeyboardSimulator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/ExpansionContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/Snippet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/BackupEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/StorageEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/System/LaunchManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/TextExpanderApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Components/VariablePillView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/AppStatusIndicator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/MenuBarView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/GeneralSettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PermissionsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PreferencesView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetListView.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "TextExpander",
+      "moduleOutputPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.swiftmodule",
+      "objects" : [
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Engine/SnippetEngine.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Engine/VariableResolver.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Engine/WordBuffer.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Keyboard/AccessibilityPermission.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Keyboard/EventTapManager.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Keyboard/KeyboardSimulator.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Models/ExpansionContext.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Models/Snippet.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Storage/BackupEngine.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Storage/StorageEngine.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/System/LaunchManager.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Main/AppState.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Main/TextExpanderApp.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Components/VariablePillView.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/MenuBar/AppStatusIndicator.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/MenuBar/MenuBarView.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/GeneralSettingsView.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/PermissionsView.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/PreferencesView.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/SnippetDetailView.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/SnippetListView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-O",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "TextExpander_main",
+        "-color-diagnostics",
+        "-enable-upcoming-feature",
+        "BareSlashRegexLiterals",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "text_expander"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Engine/SnippetEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Engine/VariableResolver.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Engine/WordBuffer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Keyboard/AccessibilityPermission.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Keyboard/EventTapManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Keyboard/KeyboardSimulator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Models/ExpansionContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Models/Snippet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Storage/BackupEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/Storage/StorageEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Core/System/LaunchManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Main/AppState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/Main/TextExpanderApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Components/VariablePillView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/MenuBar/AppStatusIndicator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/MenuBar/MenuBarView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/GeneralSettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/PermissionsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/PreferencesView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/SnippetDetailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build/UI/Preferences/SnippetListView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/SnippetEngine.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/VariableResolver.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/WordBuffer.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/AccessibilityPermission.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/EventTapManager.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/KeyboardSimulator.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/ExpansionContext.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/Snippet.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/BackupEngine.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/StorageEngine.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/System/LaunchManager.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/AppState.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/TextExpanderApp.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Components/VariablePillView.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/AppStatusIndicator.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/MenuBarView.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/GeneralSettingsView.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PermissionsView.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PreferencesView.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetDetailView.swift",
+        "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetListView.swift"
+      ],
+      "tempsPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander.build",
+      "wholeModuleOptimization" : true
+    },
+    "C.TextExpanderTests-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/SnippetEngineTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/StorageEngineTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/VariableResolverTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/WordBufferTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpander"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TextExpanderTests",
+      "moduleOutputPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.swiftmodule",
+      "objects" : [
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/SnippetEngineTests.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/StorageEngineTests.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/VariableResolverTests.swift.o",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/WordBufferTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx13.0",
+        "-swift-version",
+        "5",
+        "-index-store-path",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/index/store",
+        "-O",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-package-name",
+        "text_expander"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/SnippetEngineTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/StorageEngineTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/VariableResolverTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build/WordBufferTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/SnippetEngineTests.swift",
+        "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/StorageEngineTests.swift",
+        "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/VariableResolverTests.swift",
+        "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/WordBufferTests.swift"
+      ],
+      "tempsPath" : "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/TextExpanderTests.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "TextExpander" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TextExpander",
+      "-package-name",
+      "text_expander",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/SnippetEngine.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/VariableResolver.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/WordBuffer.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/AccessibilityPermission.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/EventTapManager.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/KeyboardSimulator.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/ExpansionContext.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/Snippet.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/BackupEngine.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/StorageEngine.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/System/LaunchManager.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/AppState.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/TextExpanderApp.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Components/VariablePillView.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/AppStatusIndicator.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/MenuBarView.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/GeneralSettingsView.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PermissionsView.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PreferencesView.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetDetailView.swift",
+      "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetListView.swift",
+      "-I",
+      "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-O",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "TextExpander_main",
+      "-color-diagnostics",
+      "-enable-upcoming-feature",
+      "BareSlashRegexLiterals",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "text_expander",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "TextExpanderTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TextExpanderTests",
+      "-package-name",
+      "text_expander",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/SnippetEngineTests.swift",
+      "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/StorageEngineTests.swift",
+      "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/VariableResolverTests.swift",
+      "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/WordBufferTests.swift",
+      "-I",
+      "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release",
+      "-target",
+      "x86_64-apple-macosx13.0",
+      "-swift-version",
+      "5",
+      "-index-store-path",
+      "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/index/store",
+      "-O",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-package-name",
+      "text_expander",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "TextExpander" : [
+
+    ],
+    "TextExpanderTests" : [
+      "TextExpander"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  }
+}

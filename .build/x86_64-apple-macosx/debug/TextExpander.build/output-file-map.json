@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/master.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/SnippetEngine.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/SnippetEngine.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/SnippetEngine.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/SnippetEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/SnippetEngine.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/VariableResolver.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/VariableResolver.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/VariableResolver.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/VariableResolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/VariableResolver.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Engine/WordBuffer.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/WordBuffer.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/WordBuffer.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/WordBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Engine/WordBuffer.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/AccessibilityPermission.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/AccessibilityPermission.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/AccessibilityPermission.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/AccessibilityPermission~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/AccessibilityPermission.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/EventTapManager.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/EventTapManager.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/EventTapManager.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/EventTapManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/EventTapManager.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Keyboard/KeyboardSimulator.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/KeyboardSimulator.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/KeyboardSimulator.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/KeyboardSimulator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Keyboard/KeyboardSimulator.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/ExpansionContext.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/ExpansionContext.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/ExpansionContext.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/ExpansionContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/ExpansionContext.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Models/Snippet.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/Snippet.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/Snippet.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/Snippet~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Models/Snippet.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/BackupEngine.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/BackupEngine.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/BackupEngine.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/BackupEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/BackupEngine.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/Storage/StorageEngine.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/StorageEngine.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/StorageEngine.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/StorageEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/Storage/StorageEngine.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Core/System/LaunchManager.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/System/LaunchManager.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/System/LaunchManager.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/System/LaunchManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Core/System/LaunchManager.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/AppState.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/AppState.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/AppState.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/AppState.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/Main/TextExpanderApp.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/TextExpanderApp.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/TextExpanderApp.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/TextExpanderApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/Main/TextExpanderApp.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Components/VariablePillView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Components/VariablePillView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Components/VariablePillView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Components/VariablePillView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Components/VariablePillView.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/AppStatusIndicator.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/AppStatusIndicator.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/AppStatusIndicator.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/AppStatusIndicator~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/AppStatusIndicator.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/MenuBar/MenuBarView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/MenuBarView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/MenuBarView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/MenuBarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/MenuBar/MenuBarView.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/GeneralSettingsView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/GeneralSettingsView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/GeneralSettingsView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/GeneralSettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/GeneralSettingsView.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PermissionsView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PermissionsView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PermissionsView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PermissionsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PermissionsView.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/PreferencesView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PreferencesView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PreferencesView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PreferencesView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/PreferencesView.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetDetailView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetDetailView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetDetailView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetDetailView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetDetailView.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Sources/TextExpander/UI/Preferences/SnippetListView.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetListView.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetListView.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpander.build/UI/Preferences/SnippetListView.swiftdeps"
+  }
+}

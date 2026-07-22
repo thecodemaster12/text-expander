@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/master.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/SnippetEngineTests.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/SnippetEngineTests.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/SnippetEngineTests.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/SnippetEngineTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/SnippetEngineTests.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/StorageEngineTests.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/StorageEngineTests.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/StorageEngineTests.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/StorageEngineTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/StorageEngineTests.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/VariableResolverTests.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/VariableResolverTests.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/VariableResolverTests.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/VariableResolverTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/VariableResolverTests.swiftdeps"
+  },
+  "/Users/rsilab/Shihab/text-expander/Tests/TextExpanderTests/WordBufferTests.swift": {
+    "dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/WordBufferTests.d",
+    "object": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/WordBufferTests.swift.o",
+    "swiftmodule": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/WordBufferTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/rsilab/Shihab/text-expander/.build/x86_64-apple-macosx/debug/TextExpanderTests.build/WordBufferTests.swiftdeps"
+  }
+}
